@@ -34,7 +34,7 @@ function compute()
     
         var interest = principal * years * rate / 100;
         //var interestValue = document.getElementById("interest").value;
-        readRange(document.getElementById("interest"));
+        readRange(document.getElementById("rate"));
     
         document.getElementById("result").innerHTML = "If you deposit <strong>" +principal+"</strong>,<br />"+
         "at an interest rate of <strong>"+rate+" %</strong>.<br />"+
